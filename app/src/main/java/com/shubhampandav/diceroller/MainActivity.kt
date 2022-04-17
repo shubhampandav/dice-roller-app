@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         btn.setOnClickListener {
 
-            var rnumber = (1..6).random();
+            var rnumber = (1..6).random(); // this is for random number
             var diceimages =
                 when(rnumber)
                 {
